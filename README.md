@@ -17,3 +17,4 @@ More changes...here they are.
 
 git status
 git add
+join the fun
