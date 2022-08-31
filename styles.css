@@ -1,14 +1,32 @@
- /* body { 
-background-color: rgb(180, 235, 233);
-} */
+
 
 body {
-background-color: rgb(180, 235, 233);
-background-color: ;
+    background-color: rgb(180, 235, 233);
     margin: 50px;
     padding: 10px;
-    border: 10px rgb(rgb(214, 133, 133), rgb(166, 220, 166), rgb(159, 159, 222))
+    border: 10px rgb(rgba(228, 181, 114, 0.819);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
 }
 img {
     width: 400px;
+    justify-content: center;
+}
+header {
+    background-color: rgb(75, 111, 111);
+}
+nav{
+
+}
+nav li {
+    display: inline-block;
+    margin-top: 30px;
+    margin-right: 20px;
+}
+main {
+    display: grid;
+      place-items: center;
+}
+h1 {
+    float: inline-end;
 }
