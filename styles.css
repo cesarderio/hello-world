@@ -16,7 +16,8 @@ header {
     background-color: rgb(75, 111, 111);
 }
 nav{
-
+    position: absolute;
+    right: 0px;
 }
 nav li {
     display: inline-block;
