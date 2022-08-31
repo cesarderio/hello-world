@@ -1,0 +1,14 @@
+ /* body { 
+background-color: rgb(180, 235, 233);
+} */
+
+body {
+background-color: rgb(180, 235, 233);
+background-color: ;
+    margin: 50px;
+    padding: 10px;
+    border: 10px rgb(rgb(214, 133, 133), rgb(166, 220, 166), rgb(159, 159, 222))
+}
+img {
+    width: 400px;
+}
