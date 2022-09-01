@@ -18,14 +18,14 @@ document.write("Hi  " + usersName + "!");
 document.write(message);
 
 
-let welcome = prompt("Do you like to hike?");
-let message;
+//let welcome = prompt("Do you like to hike?");
+//let message;
 
-if (welcome == "yes") {
-    message = "We can be friends!";
-} else ( welcome == "no") {
-    message = "Why not?";
-}
+//if (welcome == "yes") {
+  //  message = "We can be friends!";
+//} else ( welcome == "no") {
+//    message = "Why not?";
+//}
 
 
 
