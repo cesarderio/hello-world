@@ -27,13 +27,23 @@ document.write(message);
 //    message = "Why not?";
 //}
 
-function askQuestion = prompt("do you like to hike?");
-if (askQuestion == "yes") {
+function askQuestion() {
+
+ let greeting = prompt("do you like to hike?");
+if (greeting == "yes") {
     document.write("We can be friends!");
 } else {
     document.write("Why not?");
 }
+}
+askQuestion()
 
+let btn = document.createElement("button");
+btn.innerHTML = "Click Me";
+btn.onclick = function () {
+    alert("Nice Job!")
+};
+document.body.appendChild(btn);
 
 
 
