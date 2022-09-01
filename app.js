@@ -27,16 +27,27 @@ document.write(message);
 //    message = "Why not?";
 //}
 
+// function askQuestion() {
+
+//  let greeting = prompt("do you like to hike?");
+// if (greeting == "yes") {
+//     document.write("We can be friends!");
+// } else {
+//     document.write("Why not?");
+// }
+// }
+// askQuestion()
+
 function askQuestion() {
 
- let greeting = prompt("do you like to hike?");
-if (greeting == "yes") {
-    document.write("We can be friends!");
-} else {
-    document.write("Why not?");
+     let greeting = prompt("do you like to hike?");
+     while (greeting !== "yes") {
+        greeting = prompt("do you like to hike?");
+     }
+    
+        document.write("We can be friends!");
 }
-}
-askQuestion()
+    askQuestion()
 
 let btn = document.createElement("button");
 btn.innerHTML = "Click Me";
@@ -47,5 +58,19 @@ document.body.appendChild(btn);
 
 
 
+//function submitBox() {
+//    let submit = prompt()
+//}
 
-document.write("   Do you like to hike or spend time in the outdoors?");
+
+// document.write("   Do you like to hike or spend time in the outdoors?");
+
+
+function rating() {
+let usersNum = prompt("How would you rate my page from 1-5?");
+
+for (let i = 1; i <= usersNum; i++){
+    document.write('<img src="https://c.tenor.com/x8v1oNUOmg4AAAAd/rickroll-roll.gif"/>');
+}
+}
+rating()
