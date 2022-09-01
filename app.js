@@ -10,6 +10,8 @@ if (usersName == "Kassie") {
   message = "Hello and welcome!";
 } else if (usersName == "Raphael") {
   message = "Heyo!";
+} else if (usersName == "Ronin") {
+  message = "I love you!";
 } else {
   message = "  Welcome to my site!   ";
 }
@@ -56,6 +58,9 @@ btn.onclick = function () {
 };
 document.body.appendChild(btn);
 
+function submit() {
+  alert("Thank you!");
+}
 
 
 //function submitBox() {
