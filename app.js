@@ -27,6 +27,13 @@ document.write(message);
 //    message = "Why not?";
 //}
 
+function askQuestion = prompt("do you like to hike?");
+if (askQuestion == "yes") {
+    document.write("We can be friends!");
+} else {
+    document.write("Why not?");
+}
+
 
 
 
